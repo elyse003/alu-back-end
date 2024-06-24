@@ -2,6 +2,11 @@
 """
     python script that returns TODO list progress for a given employee ID
 """
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import json
 import requests
 from sys import argv
